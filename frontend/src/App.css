@@ -1,0 +1,37 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  margin-bottom: 20px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 40%;
+}
+
+.header input {
+  text-align: center;
+  width: 100px;
+  margin:10px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+button {
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
